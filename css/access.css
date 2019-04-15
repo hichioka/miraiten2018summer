@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.map .contents .show_map{
+  margin: 20px auto;
+}
+
+.main_width .contents .twoCol .twoCol__image img{
+  width: 60%;
+  margin: 20px auto;
+  display: flex;
+}
+.main_width .contents .twoCol .twoCol__detail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px auto;
+}
+.main_width .contents .twoCol .twoCol__detail .data_list{
+  padding-left: 10px;
+  border-left: medium solid #3282a5;
+}
+.main_width .contents .twoCol .twoCol__detail .data_list .data_title{
+  line-height: 1.5em;
+  float: left;
+  clear: left;
+  width: 15vmin;
+}
+.main_width .contents .twoCol .twoCol__detail .data_list .data_detail{
+  float: left;
+  line-height: 1.5em;
+}

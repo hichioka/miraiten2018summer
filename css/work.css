@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+.container .inner .content .productList .productList__element .productItem__image img{
+  height: 150%;
+  top: -20%;
+}

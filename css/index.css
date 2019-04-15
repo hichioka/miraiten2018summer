@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+.poster img{
+  width: 60%;
+  height: 100%;
+  margin: 0px auto;
+}
+.summry{
+  justify-content: center;
+  padding: 1px;
+}
+.summry .main_width img{
+  width: 60%;
+  margin: 20px auto;
+  display: flex;
+}
+.summry .summry_text{
+  width: 60%;
+  margin: 30px auto;
+}
+.works .main_width .contents a{
+  width: 40%;
+  margin: 20px auto 0px;
+  justify-content: center;
+}
+.works .main_width .contents a:hover{
+  opacity: 0.5;
+  position: relative;
+}
+.works .main_width .contents a:hover::after{
+  content: "作品を見る";
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  font-size: 3vw;
+  color: #3282a5;
+}
+.works .main_width .contents img{
+  width: 100%;
+  text-align: center;
+  border-top: 5px solid #3282a5;
+}
+.works .main_width .works_text{
+  width: 75%;
+  margin: 30px auto;
+  text-align: center;
+}
+.access .main_width .show_map{
+  width: 70%;
+  margin: 20px auto;
+  display: flex;
+}
+.access .main_width .access_text{
+  margin: 30px auto;
+  text-align: center;
+}

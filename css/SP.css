@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+@media screen and (min-width:700px){
+  .summry, .news, .light, .info{
+    background-image: url(https://2018s.miraiten.fun/img/back_line_left.png), url(https://2018s.miraiten.fun/img/back_line_right.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
+    background-size: 50%;
+    padding: 1px;
+  }
+}
+@media screen and (max-width:699px){
+  .summry, .news, .light, .info{
+    background-image: url(https://2018s.miraiten.fun/img/back_line.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+    padding: 1px;
+  }
+}
+@media screen and (max-width:500px) {
+  .main_width{
+    width: 90%;
+  }
+  .sub_title{
+    font-size: 5vmax;
+  }
+  .head_list:not(:first-child){
+    padding-left: 5%;
+  }
+  .footer_list:not(:first-child){
+    margin: auto 5%;
+  }
+  .access .main_width .show_map{
+    width: 100%;
+  }
+  .poster img, .summry .main_width img, .summry .summry_text{
+    width: 90%;
+  }
+  footer .miraiten_logo{
+    width: 50%;
+  }
+  .main_width .contents .data_list .data_title{
+    width: 20vmin;
+    margin-top: 5px;
+  }
+  .main_width .contents .data_list .data_detail{
+    width: 65%;
+    margin-left: 5%;
+    margin-top: 5px;
+  }
+  .light::after .info::after{
+    display:block;
+    clear:both;
+    height:0px;
+    visibility:hidden;
+    content:".";
+  }
+  .light, .info{
+	    min-height: 1px; /*IE6、7対策*/
+	}
+	* html .light, * html .info{
+	    height: 1px;/*MAC IE5.x対策*/
+	    height: auto;
+	    overflow: hidden;
+}

@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+.main_width{
+  width: 80%;
+  margin: 20px auto;
+}
+.contents{
+  display: flex;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+}
+p{
+  line-height: 1.5em;
+  text-align: center;
+}
+header .main_width{
+  text-align: center;
+}
+nav ul{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #3282a5;
+}
+.head_list{
+  position: relative;
+  margin: 17px auto;
+}
+.head_list:not(:first-child){
+  padding-left: 10%;
+  border-left: 1px solid #fff;
+}
+.head_list a{
+  color: #fff;
+}
+nav {
+  transition: .3s;
+}
+/* スクロールじにheaderを固定する*/
+.is-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+/* フッターが出た時固定を解除する */
+.is-hided {
+  transform: translateY(-100%);
+}
+body{
+  font-family: "小塚ゴッシクPro R","メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.sub_title{
+  margin: 60px auto 20px;
+  text-align: center;
+  color: #3282a5;
+  font-size: 3vmax;
+}
+footer{
+  width: 100%;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #3282a5;
+}
+footer  .miraiten_logo{
+  width: 20%;
+  padding-top: 20px;
+}
+footer ul{
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 10px;
+}
+
+.footer_list:not(:first-child){
+  margin: auto 5%;
+  padding-left: 10%;
+  position: relative;
+  border-left: 1px solid #fff;
+}
+.footer_list a{
+  color: #fff;
+}
+.footer_text{
+  margin-top: 20px;
+  color: #fff;
+}

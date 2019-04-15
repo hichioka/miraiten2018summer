@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.summry{
+  background-color: #fafafa;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.main_width .contents{
+  flex-wrap: wrap;
+  margin: 30px auto;
+}
+.main_width .contents .data_list{
+  border-left: medium solid #3282a5;
+}
+.main_width .contents .data_list .data_title{
+  line-height: 1.5em;
+  float: left;
+  clear: left;
+  width: 15vmin;
+  padding-left: 10px;
+}
+.main_width .contents .data_list .data_detail{
+  float: left;
+  margin-left: 10px;
+  line-height: 1.5em;
+}
+.puresen .main_width .contents img{
+  margin: 20px auto;
+  width: 60%;
+  height: 100%;
+}
+.venue .main_width .contents .is-txtCenter img{
+  margin: 10px auto;
+  width: 100%;
+}
+.main_width .right_contents{
+  float: right;
+  width: 50%;
+}
+.light .main_width img{
+  width: 45%;
+}
